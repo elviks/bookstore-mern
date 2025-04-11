@@ -10,7 +10,7 @@ const app = express();
 //middleware for parsing request body
 app.use(express.json());
 
-//middleware for handling cora policy
+//middleware for handling cors policy
 app.use(
      cors({
           origin: "http://localhost:5173",
